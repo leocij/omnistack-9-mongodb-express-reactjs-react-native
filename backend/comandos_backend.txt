@@ -1,0 +1,23 @@
+
+yarn add express
+
+yarn add nodemon -D
+
+# Configure o package.json
+"scripts": {
+    "dev": "nodemon src/server.js"
+  }
+
+# Execute o comando
+yarn dev
+
+yarn add mongoose
+
+# Manipular Multipart - upload image
+yarn add multer
+
+# Configure /config/upload.js
+
+yarn add cors
+
+yarn add socket.io
